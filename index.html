@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tes Zefanya</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <h2>Testing Junior Programmer</h2>
+  <p>Data Pegawai</p>
+<form action="index.html" method="get">  
+  <button type="hidden" class="btn-primary" style="">Hide</button>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Nomor</th>
+        <th>Kode Unit Kerja</th>
+        <th>Unit Kerja</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>0012</td>
+        <td>Pusdatin</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>0013</td>
+        <td>PPSDM</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>0014</td>
+        <td>Puslitbang</td>
+      </tr>
+    </tbody>
+  </table>
+  </form>
+  <script>
+    $(document).ready(function(){
+      $('#hide').click(function(){
+        $('#container').hide();
+      }
+    })
+  </script>
+</div>
+
+</body>
+</html>
